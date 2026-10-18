@@ -152,6 +152,49 @@ h2{
     list-style: decimal;
 }
 
+/* login e cadastro */
+.formulario-container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.formulario-container h1{
+    margin-bottom: 8px;
+}
+
+.formulario label{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.formulario input,
+.formulario select{
+    width: 100%;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.formulario .botao{
+    width: 100%;
+    margin-top: 24px;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.formulario-link{
+    margin-top: 16px;
+    text-align: center;
+}
+
+.formulario-link a{
+    color: #1f5f8b;
+}
+
 /* rodapé */
 .rodape{
     background-color: #1a1a1a;
