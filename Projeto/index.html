@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>ODS 9 e sustentabilidade</title>
+        <title>CirculaHub - Conserto e reaproveitamento</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- fontes externas -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <!-- ícones -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=autorenew,group,help,home,public,stacks">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <header>
-            <div class="header-container">
-                <a class="logo" href="#inicio">Bodia</a>
+        <header class="cabecalho">
+            <div class="cabecalho-container">
+                <a class="logo" href="#inicio">CirculaHub</a>
                 <nav aria-label="Navegação principal">
-                    <ul>
+                    <ul class="menu">
+                        <li><a href="#inicio"><span class="material-symbols-outlined" aria-hidden="true">home</span> Início</a></li>
                         <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="cadastro.html">Cadastre-se</a></li>
+                        <li><a href="#servicos">O que consertamos</a></li>
+                        <li><a href="#como-funciona">Como funciona</a></li>
+                        <li><a href="#oficinas">Oficinas</a></li>
+                        <li><a href="#parceiros">Parceiros</a></li>
                         <li><a href="login.html">Login</a></li>
                     </ul>
                 </nav>
@@ -22,16 +32,89 @@
         </header>
 
         <main>
-            <figure>
-                <img src="figs/ods9.png">
-            </figure>
-            
-            <section>
-                <article>
-                    <h2>asasasasasasas</h2>
-                    <p>asasasassdfshdfhhgfhhfgvcbcv</p>
-                </article>
+            <!-- destaque inicial -->
+            <section id="inicio" class="destaque">
+                <h1>Conserte, reaproveite, circule.</h1>
+                <p>Conectamos quem tem um item danificado a técnicos e artesãos da região.</p>
+                <a class="botao" href="cadastro.html">Seja um parceiro</a>
+            </section>
+
+            <section id="sobre" class="secao">
+                <h2><span class="material-symbols-outlined" aria-hidden="true">public</span> Sobre</h2>
+                <p>O CirculaHub é um espaço comunitário para consertar e dar nova vida a eletrodomésticos, eletrônicos, móveis e roupas. Menos lixo, menos gasto e mais trabalho para quem é da região.</p>
+                <figure class="figura-ods">
+                    <img src="figs/ods9.png" alt="Ícone do ODS 9: Indústria, Inovação e Infraestrutura">
+                    <figcaption>Projeto alinhado ao ODS 9, meta 9.4.</figcaption>
+                </figure>
+            </section>
+
+            <section id="servicos" class="secao">
+                <h2><span class="material-symbols-outlined" aria-hidden="true">stacks</span> O que consertamos</h2>
+                <div class="lista-servicos">
+                    <article class="servico">
+                        <img src="figs/eletrodomesticos.jpg" alt="Geladeira, máquina de lavar e outros eletrodomésticos">
+                        <h3>Eletrodomésticos</h3>
+                        <p>Geladeiras, máquinas de lavar, micro-ondas e outros.</p>
+                    </article>
+                    <article class="servico">
+                        <img src="figs/eletronicos.jpg" alt="Celulares, notebook, câmeras e fones antigos">
+                        <h3>Eletrônicos</h3>
+                        <p>Celulares, notebooks, fones e videogames.</p>
+                    </article>
+                    <article class="servico">
+                        <img src="figs/moveis.jpg" alt="Loja com cadeiras e móveis antigos de madeira">
+                        <h3>Móveis</h3>
+                        <p>Restauração, pintura e reaproveitamento de peças.</p>
+                    </article>
+                    <article class="servico">
+                        <img src="figs/roupas.jpg" alt="Arara com casacos e roupas penduradas">
+                        <h3>Roupas</h3>
+                        <p>Ajustes, remendos e upcycling de peças antigas.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="como-funciona" class="secao">
+                <h2><span class="material-symbols-outlined" aria-hidden="true">help</span> Como funciona</h2>
+                <ol class="passos">
+                    <li>Traga seu item ao nosso espaço.</li>
+                    <li>Um parceiro avalia o conserto.</li>
+                    <li>Seu item volta a funcionar.</li>
+                </ol>
+            </section>
+
+            <section id="oficinas" class="secao">
+                <h2><span class="material-symbols-outlined" aria-hidden="true">autorenew</span> Oficinas e mutirões</h2>
+                <p>Todo mês fazemos encontros abertos para ensinar pequenos reparos. Traga seu item e aprenda junto com quem entende.</p>
+                <!-- fotos de consertos -->
+                <div class="galeria">
+                    <img src="figs/consertando-maquina-de-lavar.jpg" alt="Técnico consertando uma máquina de lavar">
+                    <img src="figs/celular-aberto.jpg" alt="Celular aberto sobre uma bancada de reparo">
+                    <img src="figs/consertando-cadeira.jpg" alt="Cadeira de madeira sendo restaurada">
+                    <img src="figs/ajustando-roupa.jpg" alt="Roupa sendo ajustada">
+                </div>
+            </section>
+
+            <section id="parceiros" class="secao">
+                <h2><span class="material-symbols-outlined" aria-hidden="true">group</span> Parceiros</h2>
+                <ul class="lista-parceiros">
+                    <li>Técnicos independentes</li>
+                    <li>Artesãos locais</li>
+                    <li>ONGs ambientais</li>
+                    <li>Cooperativas de reciclagem</li>
+                </ul>
             </section>
         </main>
+
+        <footer class="rodape">
+            <p>CirculaHub Team</p>
+            <!-- currículos da equipe -->
+            <ul class="lista-curriculos">
+                <li><a href="https://br.linkedin.com/in/rossipoke?trk=people-guest_people_search-card" target="_blank" rel="noopener">Raphael Rossi</a></li>
+                <li><a href="https://br.linkedin.com/in/joseaba" target="_blank" rel="noopener">José Augusto de Barros Ardenghi</a></li>
+                <li><a href="https://www.linkedin.com/in/juliano-massoca-630a57396/" target="_blank" rel="noopener">Juliano Moreto Massoca</a></li>
+            </ul>
+            <p>&copy; 2026 CirculaHub</p>
+        </footer>
     </body>
 </html>
