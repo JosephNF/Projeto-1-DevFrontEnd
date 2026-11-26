@@ -49,4 +49,4 @@ Site publicado no GitHub Pages: (link a adicionar)
 
 Vídeo de apresentação: (link a adicionar)
 
-Para abrir localmente, basta abrir o arquivo `Projeto/index.html` no navegador.
+Para abrir localmente, basta abrir o arquivo `index.html` no navegador.
