@@ -63,11 +63,12 @@ A página Adm usa JavaScript puro, com as APIs DOM e Web Storage.
 
 ## Validação
 
-O HTML das páginas foi validado no [W3C Markup Validator](https://validator.w3.org/) e o CSS no [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Os prints abaixo são do Projeto 1. No Projeto 2, a `adm.html`, o `index.html` com o novo item de menu e o CSS atualizado também passaram nos validadores.
+O HTML das páginas foi validado no [W3C Markup Validator](https://validator.w3.org/) e o CSS no [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). No Projeto 2, o `index.html` com o novo item de menu e o CSS atualizado também passaram nos validadores.
 
 - [HTML da página inicial](Prints-Validacoes/validacao-html-index.png)
 - [HTML do cadastro](Prints-Validacoes/validacao-html-cadastro.png)
 - [HTML do login](Prints-Validacoes/validacao-html-login.png)
+- [HTML da página Adm](Prints-Validacoes/validacao-html-adm.png)
 - [CSS](Prints-Validacoes/validacao-css.png)
 
 ## Como acessar
