@@ -195,6 +195,73 @@ h2{
     color: #1f5f8b;
 }
 
+/* adm */
+.adm{
+    max-width: 600px;
+}
+
+.formulario .botao-secundario{
+    margin-top: 8px;
+    background-color: #ffffff;
+    border: 2px solid #1a1a1a;
+}
+
+.usuarios{
+    margin-top: 40px;
+}
+
+.lista-usuarios{
+    margin-top: 16px;
+}
+
+.lista-usuarios li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.usuario-info span{
+    display: block;
+}
+
+.usuario-data{
+    color: #1f5f8b;
+    font-size: 0.875rem;
+}
+
+.usuario-nome{
+    font-weight: bold;
+}
+
+.usuario-email{
+    word-break: break-all;
+}
+
+.botao-excluir{
+    padding: 4px;
+    background: none;
+    border: none;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.botao-excluir:hover{
+    color: #fd6925;
+}
+
+.botao-escuro{
+    margin-top: 16px;
+    border: none;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 /* rodapé */
 .rodape{
     background-color: #1a1a1a;
