@@ -73,7 +73,7 @@ O HTML das páginas foi validado no [W3C Markup Validator](https://validator.w3.
 
 ## Como acessar
 
-Site publicado no GitHub Pages: [GitHub Pages](https://josephnf.github.io/Projeto-1-DevFrontEnd/adm.html)
+Site publicado no GitHub Pages: [GitHub Pages](https://julianomxm.github.io/Projeto-2-Frontend/)
 
 Vídeo de apresentação: (link a adicionar)
 
